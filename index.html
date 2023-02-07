@@ -1,12 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+
+    <title>Weather</title>
+  </head>
+  <body>
+    <div class="weather">
+      <div class="container">
+        <p class="city">City:</p>
+        <div class="weather_city_input">
+          <input type="text" class="weather_city_value" />
+          <button class="weather_city_button">click</button>
+        </div>
+        <div class="weather_city"></div>
+        <span class="images_colon">
+          <span class="images"> </span>
+          <p class="temperature"></p
+        ></span>
+        <span class="images"> </span>
+        <p class="temperature"></p>
+        <p class="disclaimer"></p>
+        <p class="wind"></p>
+        <p class="visibility"></p>
+        <p class="humidity"></p>
+        <span class="images"> </span>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+
+    <script src="JS/slick.min.js"></script>
+    <script src="./JS/app.js"></script>
+  </body>
 </html>
